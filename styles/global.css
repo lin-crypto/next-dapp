@@ -1,0 +1,51 @@
+.header {
+  color: #ffffff;
+  display: flex;
+  padding: 0 10px;
+  padding-top: 30px;
+  justify-content: space-between;
+}
+
+.main {
+  padding: 50px;
+}
+
+.footer {
+  padding: 20px;
+  color: #ffffff;
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(
+      circle at 50% 0,
+      rgba(255, 255, 255, 0.5),
+      rgba(0, 110, 255, 0.3) 70.71%
+    ),
+    radial-gradient(
+      circle at 6.7% 75%,
+      rgba(0, 238, 255, 0.5),
+      rgba(55, 0, 255, 0.6) 70.71%
+    ),
+    radial-gradient(
+        circle at 93.3% 75%,
+        rgba(0, 0, 55, 0.5),
+        rgba(0, 0, 255, 0.5) 70.71%
+      )
+      #b62a00;
+  z-index: -1;
+}
+
+.asset_card {
+  box-shadow: 0 0 5px gray;
+  cursor: pointer;
+  transition: box-shadow 0.5s;
+}
+
+.asset_card:hover {
+  box-shadow: 0 0 5px black;
+}
