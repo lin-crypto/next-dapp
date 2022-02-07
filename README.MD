@@ -1,4 +1,4 @@
-# Airdrop Macchina
+# DApp
 
 ## Install
 
